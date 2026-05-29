@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./components/Header";
+import Dashboard from "./components/Dashboard";
+import Footer from "./components/Footer";
+import CTABanner from "./components/CTABanner";
+import Solutions from "./components/Solution";
+import CoreBanking from "./components/CoreBanking";
+import Marquee from "./components/Marquee";
+import DigitalBanking from "./components/DigitalBanking";
+import Insights from "./components/Insights";
+import BannerFooter from "./components/BannerFooter";
+import CaseStudies from "./components/CaseStudies";
+import DigitalBanner from "./components/DigitalBanner";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="overflow-x-hidden">
+      <Header />
+      <Dashboard />
+      <Solutions />
+      <CoreBanking />
+      <CTABanner/>
+      <Marquee />
+      <DigitalBanking />
+      <DigitalBanner />
+      <Insights />
+      <CaseStudies />
+      <BannerFooter/>
+      <Footer/>
     </div>
   );
 }
