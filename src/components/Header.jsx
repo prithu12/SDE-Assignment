@@ -8,23 +8,23 @@ export default function Header() {
 					N7
 				</h1>
 
-				<div className="ml-[40px] mr-[24px] flex flex-wrap items-center gap-[28px] max-[700px]:ml-0 max-[700px]:mr-0 max-[700px]:justify-center max-[700px]:gap-x-5 max-[700px]:gap-y-2 max-[480px]:gap-x-4">
-					<button className="flex items-center gap-2 font-['Chivo_Mono'] text-[12px] uppercase text-[#E9F4F9]">
+				<div className="ml-[40px] mr-[24px] flex flex-wrap items-center gap-[18px] max-[700px]:ml-0 max-[700px]:mr-0 max-[700px]:justify-center max-[700px]:gap-x-4 max-[700px]:gap-y-2 max-[480px]:gap-x-3">
+					<button className="inline-flex items-center gap-2 rounded-full px-3 py-2 font-['Chivo_Mono'] text-[12px] uppercase tracking-[0.08em] text-[#E9F4F9] transition-colors hover:bg-white/10 focus-visible:bg-white/10">
 						SOLUTIONS
-						<img src="/1.png" alt="arrow" />
+						<img src="/1.png" alt="arrow" className="h-3 w-3 max-[480px]:hidden" />
 					</button>
 
-					<button className="flex items-center gap-1 font-['Chivo_Mono'] text-[12px] uppercase text-[#E9F4F9]">
+					<button className="inline-flex items-center gap-1 rounded-full px-3 py-2 font-['Chivo_Mono'] text-[12px] uppercase tracking-[0.08em] text-[#E9F4F9] transition-colors hover:bg-white/10 focus-visible:bg-white/10">
 						RESOURCES
-						<img src="/1.png" alt="arrow" />
+						<img src="/1.png" alt="arrow" className="h-3 w-3 max-[480px]:hidden" />
 					</button>
 
-					<button className="font-['Chivo_Mono'] text-[12px] uppercase text-[#E9F4F9] whitespace-nowrap">
+					<button className="whitespace-nowrap rounded-full px-3 py-2 font-['Chivo_Mono'] text-[12px] uppercase tracking-[0.08em] text-[#E9F4F9] transition-colors hover:bg-white/10 focus-visible:bg-white/10">
 						ABOUT US
 					</button>
 				</div>
 
-					<button className="ml-auto inline-flex min-w-[168px] shrink-0 items-center justify-center whitespace-nowrap rounded-[6px] border border-white px-[24px] py-[10px] font-['Chivo_Mono'] text-[12px] uppercase leading-none text-white max-[700px]:ml-0 max-[700px]:w-full max-[700px]:min-w-0">
+				<button className="ml-auto inline-flex min-w-[168px] shrink-0 items-center justify-center whitespace-nowrap rounded-[6px] border border-white px-[24px] py-[10px] font-['Chivo_Mono'] text-[12px] uppercase leading-none text-white transition-colors hover:bg-white/10 focus-visible:bg-white/10 max-[700px]:ml-0 max-[700px]:w-full max-[700px]:min-w-0">
 					REQUEST DEMO
 				</button>
 			</div>
