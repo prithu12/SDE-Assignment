@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CTABanner() {
+export default function Banner() {
   return (
     <section className="relative overflow-hidden bg-[#000D12] px-20 py-[60px] max-[900px]:px-6 max-[900px]:py-10">
       {/* section wrapper */}

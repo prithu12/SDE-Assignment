@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
-import CTABanner from "./components/CTABanner";
+import Banner from "./components/Banner";
 import Solutions from "./components/Solution";
 import CoreBanking from "./components/CoreBanking";
 import Marquee from "./components/Marquee";
@@ -18,7 +18,7 @@ function App() {
       <Dashboard />
       <Solutions />
       <CoreBanking />
-      <CTABanner/>
+      <Banner/>
       <Marquee />
       <DigitalBanking />
       <DigitalBanner />
