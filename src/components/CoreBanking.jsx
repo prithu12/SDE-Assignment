@@ -91,14 +91,13 @@ export default function CoreBanking() {
       </section>
 
       {/* SECOND SECTION */}
-      <section className="relative flex min-h-[681px] items-center overflow-hidden bg-[#000D12] py-20 pl-0 pr-20 max-[1100px]:flex-col max-[1100px]:gap-10 max-[1100px]:px-10 max-[600px]:px-5">
+      <section className="relative flex min-h-[681px] items-center justify-between overflow-hidden bg-[#000D12] py-20 pl-0 pr-20 gap-10 max-[1100px]:flex-col max-[1100px]:min-h-auto max-[1100px]:gap-10 max-[1100px]:px-10 max-[600px]:px-5 max-[600px]:py-12">
 
         {/* left image */}
-        {/* left image */}
-<div className="relative z-[1] flex w-[492px] shrink-0 flex-col max-[1100px]:w-full">
+<div className="relative z-[1] flex w-[492px] shrink-0 flex-col max-[1100px]:w-full max-[600px]:w-full">
 
   {/* main screen */}
-  <div className="overflow-hidden rounded-r-[16px] ">
+  <div className="overflow-hidden rounded-r-[16px] max-[1100px]:rounded-[16px]">
     <img
       src={kycDashboard}
       alt="KYC Dashboard"
@@ -110,26 +109,26 @@ export default function CoreBanking() {
 </div>
 
         {/* right text */}
-        <div className=" absolute left-[770px]">
-        <div className="flex max-w-[650px]  flex-1 flex-col gap-[34px] pl-[70px] max-[1100px]:p-0">
-          <h3 className="text-[27px] leading-[1.3] text-[#E9F4F9]">
+        <div className="relative flex max-w-[650px] flex-1 flex-col gap-[34px] pl-[70px] max-[1100px]:p-0 max-[1100px]:max-w-full max-[1100px]:pl-0 max-[600px]:gap-6">
+        <div className="flex max-w-[650px] flex-1 flex-col gap-[34px] max-[1100px]:max-w-full max-[1100px]:gap-6">
+          <h3 className="text-[27px] leading-[1.3] text-[#E9F4F9] max-[900px]:text-[24px] max-[600px]:text-[20px] max-[480px]:text-[18px]">
             Run a more efficient, flexible, and digitally
             connected corebanking system
           </h3>
 
           <div className="flex flex-col gap-3">
 
-            <p className="text-base font-semibold text-[#E9F4F9]">
+            <p className="text-base font-semibold text-[#E9F4F9] max-[600px]:text-[14px]">
               What you will get:
             </p>
 
-            <div className="flex gap-7 max-[600px]:flex-col">
+            <div className="flex gap-7 max-[900px]:gap-5 max-[600px]:flex-col max-[600px]:gap-4">
 
               <div className="flex flex-1 flex-col gap-2.5">
                 {features.slice(0, 5).map((f, i) => (
                   <div className="flex items-start gap-2" key={i}>
-                    <img src={tick} alt="tick" className="mt-1 h-[18px] w-[18px] flex-shrink-0 object-contain" />
-                    <span className="text-base text-[#E9F4F9]/80">
+                    <img src={tick} alt="tick" className="mt-1 h-[18px] w-[18px] flex-shrink-0 object-contain max-[600px]:h-4 max-[600px]:w-4" />
+                    <span className="text-base text-[#E9F4F9]/80 max-[900px]:text-[14px] max-[600px]:text-[13px]">
                       {f}
                     </span>
                   </div>
@@ -139,8 +138,8 @@ export default function CoreBanking() {
               <div className="flex flex-1 flex-col gap-2.5 text-left">
                 {features.slice(5).map((f, i) => (
                   <div className="flex items-start gap-2" key={i}>
-                    <img src={tick} alt="tick" className="mt-1 h-[18px] w-[18px] flex-shrink-0 object-contain" />
-                    <span className="text-base text-[#E9F4F9]/80">
+                    <img src={tick} alt="tick" className="mt-1 h-[18px] w-[18px] flex-shrink-0 object-contain max-[600px]:h-4 max-[600px]:w-4" />
+                    <span className="text-base text-[#E9F4F9]/80 max-[900px]:text-[14px] max-[600px]:text-[13px]">
                       {f}
                     </span>
                   </div>
